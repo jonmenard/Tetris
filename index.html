@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" id = "html"></html>
+    <head>
+        <script src = "Scripts/jquery-3.4.1.js"></script>
+        <link rel="stylesheet" media="screen and (min-width: 1200px)" href="CSS/websiteStyle.css">
+        <link rel="stylesheet" media="screen and (max-width: 1200px)" href="CSS/websiteStyleMobile.css">
+    </head>
+<body style="top:0;margin:0;" hidden>
+    <script>
+        boxWidth = 0;
+        
+        const pixleRatio = window.devicePixelRatio || 1
+        if (window.matchMedia('(max-width: 1300px)').matches) {
+            boxWidth = 44 
+        } else {
+            boxWidth = 44
+        }
+        const boxWidthRatio = 44 * 1.5 * pixleRatio
+
+
+    </script>
+   <main class= "gameHolder"  >
+        <!-- <section class="sectionContainer"> -->
+            <div id = "tetrisContainer"class="game">
+                <br>
+                <button class = "tetrisButton" id="tetrisStart">Start Game</button>
+                <button class = "tetrisButton" id="tetrisAIStart">Start AI</button>
+                <canvas id="tetris"> 
+                    <button class = "tetrisButton" id="tetrisStart">Start Game</button>
+                    <button class = "tetrisButton" id="tetrisAIStart">Start AI</button>
+                </canvas>
+                
+                <script  src = "Scripts/tetris/aiTetris.js"></script>
+                <script  src = "Scripts/tetris/tetrisBox.js"></script>
+                <script  src = "Scripts/tetris/tetrisObject.js"></script>
+                <script  src = "Scripts/tetris/tetrisGameBoard.js"></script>
+                <script  src = "Scripts/tetris/tetrisCanvas.js"></script>
+                <script  src = "Scripts/tetris/tetris.js"></script>
+                <script  src = "Scripts/tetris/tetrisControler.js"></script>
+            </div>  
+        <!-- </div> -->
+    </main>
+
+    <script>
+        let tetrisCanvas = document.getElementById("tetris");
+        tetrisCanvas.style.maxHeight = "1050px"
+
+    </script>
+    
+    <footer></footer>
+</body>
+</html>
