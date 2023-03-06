@@ -1,6 +1,10 @@
 # Tetris with AI
 
 This is an implementation of the classic Tetris game, along with an AI algorithm that can automatically play the game. The game can be played online at https://jonmenard.github.io/games.html.
+<p align="center">
+  <img width="783" alt="image" src="https://user-images.githubusercontent.com/55707155/222996005-3c12b962-378b-4dc6-a60f-749ee78f3fb1.png">
+</p>
+
 
 ## How to play
 This implementation of Tetris uses the classic rules of the game, where the player must move and rotate falling blocks to create complete rows of blocks, which are then removed from the screen. 
