@@ -2,7 +2,9 @@
 
 This is an implementation of the classic Tetris game, along with an AI algorithm that can automatically play the game. The game can be played online at https://jonmenard.github.io/games.html.
 <p align="center">
-  <img width="783" alt="image" src="https://user-images.githubusercontent.com/55707155/222996005-3c12b962-378b-4dc6-a60f-749ee78f3fb1.png">
+  <a href = "https://jonmenard.github.io/games.html">
+    <img width="783" alt="image" src="https://user-images.githubusercontent.com/55707155/222996005-3c12b962-378b-4dc6-a60f-749ee78f3fb1.png">
+  </a>
 </p>
 
 
