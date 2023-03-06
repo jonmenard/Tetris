@@ -1,0 +1,14 @@
+# Tetris with AI
+
+This is an implementation of the classic Tetris game, along with an AI algorithm that can automatically play the game. The game can be played online at https://jonmenard.github.io/games.html.
+
+## How to play
+This implementation of Tetris uses the classic rules of the game, where the player must move and rotate falling blocks to create complete rows of blocks, which are then removed from the screen. 
+You can play the game manually using the arrow keys on your keyboard. 'A' and 'S' to move. W to rotate. Space to swap. Enter to fast drop.
+To play Tetris with the AI, simply click the "Solve AI" button in the game's control panel. The AI algorithm will start a new game automatically.
+
+## AI Solver
+The AI algorithm is based on a simple heuristic that evaluates each possible move based on the height of the blocks on the board, the number of holes in the board, and the number of completed rows. The algorithm then chooses the move with the highest score and plays it.
+
+## Technologies used
+The game is implemented using HTML, CSS, and JavaScript, and can be played in any modern web browser.
