@@ -95,8 +95,6 @@ class TetrisCanvas{
         this.ctx.textAlign = "center";
         this.ctx.fillText("Hold",this.offsetLeft - boxWidthRatio * 3.5 ,boxWidthRatio * 9);
         this.ctx.fillText("Next",this.offsetLeft + boxWidthRatio * 13.5 + 12 * this.lineHeight,boxWidthRatio * 9);
-        $("#tetrisAIStart").css("right", boxWidthRatio/2 * 1 );
-        $("#tetrisStart").css("left", boxWidthRatio/2 * 1);
     }
 
     // draw all the boxes

@@ -3,6 +3,20 @@
  const boxHeight = boxWidth;
  const lineHeight = 1;
 
+function resizeButtons(){
+    let width = $("#tetris").width()/20
+    let height = $("#tetris").height()/10
+    $("#tetrisStart").css("left",  $("#tetrisContainer").width()/11.5);
+    $("#tetrisAIStart").css("right", $("#tetrisContainer").width()/8.5);
+    $("#tetrisStart").css("font-size",   Math.round(width) + "px");
+    $("#tetrisAIStart").css("font-size", Math.round(width)+ "px");
+    $("#tetrisStart").css("bottom",   height + "px");
+    $("#tetrisAIStart").css("bottom", height+ "px");
+}
+
+window.addEventListener("load", resizeButtons);
+window.addEventListener("resize", resizeButtons);
+
  $(window).bind("load", function () {
      
     var tetrisCanvas = new TetrisCanvas(lineHeight,boxHeight,boxWidth);
