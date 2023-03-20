@@ -6,8 +6,8 @@
 function resizeButtons(){
     let width = $("#tetris").width()/20
     let height = $("#tetris").height()/10
-    $("#tetrisStart").css("left",  $("#tetrisContainer").width()/11.5);
-    $("#tetrisAIStart").css("right", $("#tetrisContainer").width()/8.5);
+    $("#tetrisStart").css("left",  $("#tetrisContainer").width()/24);
+    $("#tetrisAIStart").css("right", $("#tetrisContainer").width()/15);
     $("#tetrisStart").css("font-size",   Math.round(width) + "px");
     $("#tetrisAIStart").css("font-size", Math.round(width)+ "px");
     $("#tetrisStart").css("bottom",   height + "px");
